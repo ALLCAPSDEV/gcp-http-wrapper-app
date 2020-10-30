@@ -1,0 +1,27 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  coverage:
+    name: Code Coverage to CodeClimate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: npm cache
+        id: npm-cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - uses: actions/setup-node@v2.1.2
+        with:
+          node-version: 14
+      - uses: paambaati/codeclimate-action@v2.7.4
+        name: Code Climate coverage action
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        with:
+          coverageCommand: npm cit
