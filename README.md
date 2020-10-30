@@ -12,11 +12,11 @@ This is a simple boilerplate/template repo for TypeScript projects.
 
 ## Features
 
-* ESLint & Prettier preconfigured
-* Commit Lint enabled in order to assist with auto-generation of changelogs
-* Jest configured to use [@swc-node/jest](https://www.npmjs.com/package/@swc-node/jest) for more performant test execution
-* Github Actions configured for [pull requests](./.github/workflows/pull-request.yml) and [merge to main](./.github/workflows/push_to_main.yml)
-* Dependabot configured to keep dependencies up to date for both NPM and Github Actions
+- ESLint & Prettier preconfigured
+- Commit Lint enabled in order to assist with auto-generation of changelogs
+- Jest configured to use [@swc-node/jest](https://www.npmjs.com/package/@swc-node/jest) for more performant test execution
+- Github Actions configured for [pull requests](./.github/workflows/pull-request.yml) and [merge to main](./.github/workflows/push_to_main.yml)
+- Dependabot configured to keep dependencies up to date for both NPM and Github Actions
 
 ## Contributing
 
