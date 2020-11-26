@@ -2,7 +2,7 @@
 
 ---
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/5a2a1b28eb9b6264d827/maintainability)](https://codeclimate.com/github/ALLCAPSDEV/typescript-template/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/5a2a1b28eb9b6264d827/test_coverage)](https://codeclimate.com/github/ALLCAPSDEV/typescript-template/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3b569a396bc7f9fde3dd/maintainability)](https://codeclimate.com/github/ALLCAPSDEV/gcp-http-wrapper-app/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/3b569a396bc7f9fde3dd/test_coverage)](https://codeclimate.com/github/ALLCAPSDEV/gcp-http-wrapper-app/test_coverage)
 
 ---
 
