@@ -7,7 +7,7 @@ export const logger = (
   _res: Response,
   next: NextFunction
 ) => {
-  const logger = new Logger('visionAPI_log', req);
+  const logger = new Logger(logName, req);
   req.context = {
     logger,
   };
