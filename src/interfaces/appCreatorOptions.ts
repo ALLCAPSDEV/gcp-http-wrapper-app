@@ -1,6 +1,5 @@
 export interface AppCreatorOptions {
-  apiKey?: boolean;
-  httpMethods?: [
+  httpMethods: [
     'GET',
     'POST',
     'PUT',
