@@ -14,10 +14,8 @@ const errorHandler = (
   req: RequestWithContext,
   res: Response
 ) => {
-  console.log('HAVE I MADE IT HERE?');
   errors.report(err);
   req.context.logger.error(err.message);
-  console.log(err.getCode());
   return res
     .status(err.getCode())
     .json({ status: err.getCode(), error: { message: err.message } });
