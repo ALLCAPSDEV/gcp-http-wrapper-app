@@ -29,7 +29,7 @@
     "@arkweid/lefthook": "0.7.2",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@swc-node/jest": "1.0.2",
+    "@swc-node/jest": "1.0.3",
     "@types/express": "4.17.9",
     "@types/jest": "26.0.19",
     "@types/node": "14.14.19",
