@@ -55,7 +55,7 @@
     }
   },
   "dependencies": {
-    "@google-cloud/error-reporting": "2.0.0",
+    "@google-cloud/error-reporting": "2.0.1",
     "@google-cloud/logging": "9.0.1",
     "express": "4.17.1",
     "type-fest": "0.20.2"
