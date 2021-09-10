@@ -58,6 +58,6 @@
     "@google-cloud/error-reporting": "2.0.3",
     "@google-cloud/logging": "9.5.5",
     "express": "4.17.1",
-    "type-fest": "2.1.0"
+    "type-fest": "2.3.1"
   }
 }
