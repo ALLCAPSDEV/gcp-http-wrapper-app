@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v2.4.1
         with:
           node-version: 14
-      - uses: paambaati/codeclimate-action@v2.7.5
+      - uses: paambaati/codeclimate-action@v3.0.0
         name: Code Climate coverage action
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
