@@ -27,7 +27,7 @@
   "homepage": "https://github.com/ALLCAPSDEV/typescript-template#readme",
   "devDependencies": {
     "@arkweid/lefthook": "0.7.7",
-    "@commitlint/cli": "19.2.0",
+    "@commitlint/cli": "19.2.1",
     "@commitlint/config-conventional": "19.1.0",
     "@swc-node/jest": "1.6.8",
     "@types/express": "4.17.21",
